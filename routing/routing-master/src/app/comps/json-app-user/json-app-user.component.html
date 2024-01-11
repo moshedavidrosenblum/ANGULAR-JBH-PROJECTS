@@ -1,0 +1,15 @@
+<p>json-app-user works!</p>
+
+
+<button routerLink="/user/2">user number 2</button>
+<button routerLink="/user/3">user number 3</button>
+
+
+<ul *ngIf="user">
+    <li> {{user.name}} </li>
+    <li> {{user['username']}} </li>
+    <li> {{user['email']}} </li>
+
+
+
+</ul>

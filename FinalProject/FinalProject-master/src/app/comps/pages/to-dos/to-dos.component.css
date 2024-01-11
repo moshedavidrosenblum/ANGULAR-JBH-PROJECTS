@@ -1,0 +1,21 @@
+.todoCss{
+    /* border: 1px black solid; */
+    color: blue;
+    background-color: yellow;
+    width: 50x;
+    height: 60px;
+    display: inline-block;
+padding: 20px;
+border:dashed red;
+justify-content: space-around;
+/* border-radius: 50%; */
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }

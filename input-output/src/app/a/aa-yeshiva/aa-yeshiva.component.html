@@ -1,0 +1,88 @@
+<p>aa-yeshiva works!</p>
+<div>
+   <button (click)="avrech_Count = avrech_Count+ 1">
+    someone talk to avrech
+   </button>
+
+   <button (click)="madrich_Chatanim_Count = madrich_Chatanim_Count+ 1">
+    someone talk to madrich chatanim
+   </button>
+
+   <button (click)="makak_count = makak_count+ 1">
+    someone talk to madrich makak
+   </button>
+
+   <button (click)="mashgichim_count = mashgichim_count+ 1">
+    someone talk to madrich mashgichim
+   </button>
+
+   <button (click)="mazkira_count = mazkira_count+ 1">
+    someone talk to madrich mazkira
+   </button>
+
+   <button (click)=" mefakeach_count =  mefakeach_count+ 1">
+    someone talk to madrich mefakeach
+   </button>
+
+   <button (click)=" menake_count =  menake_count+ 1">
+    someone talk to madrich menake
+   </button>
+
+   <button (click)="rabanit_count =  rabanit_count+ 1">
+    someone talk to rabanit
+   </button>
+
+   <button (click)="ramim_count =  ramim_count+ 1">
+    someone talk to ramim
+   </button>
+
+   <button (click)="rosh_yeshiva_count =  rosh_yeshiva_count+ 1">
+    someone talk to rosh_yeshiva
+   </button>
+
+   <button (click)="sharat_count =  sharat_count+ 1">
+    someone talk to rosh_yeshiva
+   </button>
+
+   <button (click)=" shomer_count =   shomer_count+ 1">
+    someone talk to shomer
+   </button>
+
+   <button (click)=" tabach_count=   tabach_count+ 1">
+    someone talk to tabach
+   </button>
+
+   <button (click)=" talmidim_count=   talmidim_count+ 1">
+    someone talk to talmidim
+   </button>
+   <hr>
+
+</div> 
+
+ <div>
+
+    <app-avrech (iGotYou)="avrech_Count=avrech_Count+1"[count]="avrech_Count"></app-avrech> 
+
+    <app-madrich-chatanim (iGot)="madrich_Chatanim_Count=madrich_Chatanim_Count+1" [count]="madrich_Chatanim_Count"></app-madrich-chatanim>
+
+    <app-makak (iGot)=" makak_count =  makak_count+1" [count]=" makak_count"></app-makak>
+
+
+
+
+   <app-mashgichim (iGotYou)="mashgichim_count = mashgichim_count+1"[count]="mashgichim_count"></app-mashgichim>
+    <app-mazkira (iGotYou)="mazkira_count = mazkira_count+1"[count]="mazkira_count" ></app-mazkira>
+    <app-mefakeach (iGotYou)="mefakeach_count = mefakeach_count+1"[count]="mefakeach_count"></app-mefakeach>
+    <app-menake (iGotYou)="menake_count= menake_count+1"[count]="menake_count"></app-menake>
+    <app-rabanit (iGotYou)="rabanit_count= rabanit_count+1" [count]="rabanit_count"></app-rabanit>
+    <app-ramim  (iGotYou)="ramim_count= ramim_count+1" [count]="ramim_count"></app-ramim>
+    <app-ros-yeshiva  (iGotYou)="rosh_yeshiva_count= rosh_yeshiva_count+1" [count]="rosh_yeshiva_count"></app-ros-yeshiva>
+    <app-sharat (iGotYou)="sharat_count= sharat_count+1" [count]="sharat_count"></app-sharat>
+    <app-shomer (iGotYou)="shomer_count= shomer_count+1" [count]="shomer_count"></app-shomer>
+    <app-tabach (iGotYou)="tabach_count= tabach_count+1" [count]="tabach_count"></app-tabach>
+    <app-talmidim app-tabach (iGotYou)="talmidim_count= talmidim_count+1" [count]="talmidim_count"></app-talmidim> 
+
+
+
+
+ </div>

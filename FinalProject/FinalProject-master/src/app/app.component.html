@@ -1,0 +1,19 @@
+
+<!-- <app-users></app-users> -->
+
+<app-users *ngIf="locationSvc.location=='users'" ></app-users> 
+
+<app-header></app-header>
+
+<app-login *ngIf="locationSvc.location == 'logIn'"> </app-login>  
+
+<app-home-page *ngIf="locationSvc.location =='homePage'"></app-home-page>
+
+<app-posts *ngIf="locationSvc.location =='posts'" ></app-posts>
+
+<app-to-dos *ngIf="locationSvc.location =='todos'"></app-to-dos>
+
+<app-album *ngIf="locationSvc.location =='albums'" ></app-album>
+
+<!-- <app-aba></app-aba> -->
+

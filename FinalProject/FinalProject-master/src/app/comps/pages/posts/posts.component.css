@@ -1,0 +1,19 @@
+.postCss{
+    display: flex;
+    border-radius: 20%;
+    color: magenta;
+    background-color: blue;
+    width: 75x;
+    height: 75px;
+    display: inline-block;
+padding: 20px;
+border:dashed rgb(0, 255, 21);
+justify-content: space-around;
+/* border-radius: 50%; */
+
+
+    
+}
+.myposts{
+    padding: 5px;
+}

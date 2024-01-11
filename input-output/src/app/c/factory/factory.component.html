@@ -1,0 +1,11 @@
+<p>factory works!</p>
+
+<button (click)="choclateCount = choclateCount +1 ">someon talk to choclate</button>
+<button (click)="candyCount= candyCount +1">someon talk to candy</button>
+
+<hr>
+<app-candys (candysOutput)="candyCount= candyCount +1"
+[can]="candyCount"></app-candys>
+<hr>
+<app-choclate (outputChoclate)="choclateCount = choclateCount +1"
+[chock]="choclateCount"></app-choclate>

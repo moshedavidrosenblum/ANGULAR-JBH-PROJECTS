@@ -1,0 +1,28 @@
+<p>ofice works!</p>
+
+<div>
+
+     <button (click)="manegerCount = manegerCount+ 1">
+     someone talk to manneger
+    </button>
+
+     <button (click)="workerCount = workerCount+ 1">  
+     someone talk to worker
+     </button>
+
+     <button (click)="secreteryCount = secreteryCount+ 1">  
+            someone talk to secretery
+     </button>
+</div>
+
+<app-maneger (iGotYou)="manegerCount=manegerCount +1"
+ [count]="manegerCount"></app-maneger>
+<hr>
+
+<app-worker (iGotYou)="workerCount= workerCount +1"
+[count]="workerCount"></app-worker>
+<hr>
+
+<app-secretery (iGotYou)="secreteryCount= secreteryCount +1" 
+[count]="secreteryCount"></app-secretery>
+<hr>

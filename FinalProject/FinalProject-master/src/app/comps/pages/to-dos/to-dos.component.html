@@ -1,0 +1,25 @@
+<p>to-dos works!</p>
+                                                             
+<h3> בחר טווח מספרים ויוצגו המשימות לפי הבחירה</h3><br>
+from<input type="number" [(ngModel)]="gentnum" >
+to<input type="number" [(ngModel)]="gentnum2">
+<button (click)="myfilter()"> click to filter </button>
+
+<div *ngFor="let b of todo" class="todoCss" appHighlight mycolor='pink'>
+
+    
+<!-- user id= {{b.userId}} <br> -->
+id= {{b.id}} <br>
+title: {{b.title}} <br>
+isComplited: {{b.completed}}
+
+</div>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+img{
+    
+    width: 100%;
+    padding: 5px;
+    max-height: 200px;
+    /* position: absolute; */
+    overflow: auto;
+    
+}
+.mainDiv{
+   /*  position: relative; */
+    top: 20%;
+    height: 50px;
+
+}
+.photos.show{
+    left: 0%;
+}
+.photos{
+    position: absolute;
+    left:-100%;
+    top: 0%;
+    width: 100%;
+    transition: left 2s;
+
+}
+ h3{
+    /* position: absolute; */
+    top: 0%;
+    left: 0%;
+   
+}
+.clider{
+    position: relative;
+}
+
+ul.myPosts{
+   /*  position: absolute; */
+   top:350px;
+}
+.myPosts{
+    display: flex;
+    /* border-radius: 20%; */
+    color: rgba(246, 16, 227, 0.856);
+    background-color: rgb(0, 255, 191);
+    width: 75x;
+    height: 75px;
+    display: inline-block;
+padding: 20px;
+border:dashed rgb(255, 0, 0);
+justify-content: space-around;
+
+}
+

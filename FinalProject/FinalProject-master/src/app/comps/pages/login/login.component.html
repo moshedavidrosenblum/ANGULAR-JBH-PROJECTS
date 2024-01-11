@@ -1,0 +1,16 @@
+<div class="main">
+<p>login works!</p>
+
+<!-- נחנו דואגים שהנגימודול לוקח מהאינפוט כל שינוי שיש באינפוט ומעדכן את המישתנה בסרביס -->
+
+<label>user</label> <input [(ngModel)]="user"/> <br>   
+<label>pass</label> <input [(ngModel)]="pass"/><br>
+
+<div>
+        <label>user</label> <input [(ngModel)]="user"/><br>  
+        <label>pass</label> <input [(ngModel)]="pass"/><br>
+<button (click)='logIn()'><h1>log in</h1> </button>
+    <!-- <label>user</label><span>{{user}}</span><br>
+    <label>pass</label><span>{{pass}}</span> -->
+</div>
+</div>

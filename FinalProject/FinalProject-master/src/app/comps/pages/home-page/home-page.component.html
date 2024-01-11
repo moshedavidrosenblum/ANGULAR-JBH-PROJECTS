@@ -1,0 +1,28 @@
+<!-- <ul class="myPosts">
+    <li *ngFor="let p of posts"><form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <textarea matInput placeholder="Leave a comment"></textarea>
+  </mat-form-field>
+</form>
+    </li>
+</ul> -->
+
+<div *ngIf="album" class="clider">
+  <div *ngFor="let a of album">
+    <img class="photos" [src]="a.url">
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="allPost">
+  <span *ngFor="let p of posts" class="myPosts" appHomePage>
+    <br> userId :{{p.userId}}
+    <br> title :{{p.title}}
+    <br> body :{{p. body}}
+
+  </span>
+</div>

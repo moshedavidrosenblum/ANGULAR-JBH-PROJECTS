@@ -1,0 +1,109 @@
+<p>get-func-pipe works!</p>
+
+9) top ten:
+
+<div>
+  {{ top |  topTen}} 
+
+</div>
+<br>
+<hr>
+<hr>
+
+1)upper case: 
+
+  <input type="text"  (input)="shmuel = $event.target.value"> 
+  <br> 
+  
+
+ <div>
+    {{ shmuel | capital }} 
+
+ </div>
+<br>
+<hr>
+2) date:
+<div>
+    {{ mm | toIsraelDate }} 
+ </div>
+<hr>
+3) upper case all: 
+
+  <input type="text"  (input)="mashu = $event.target.value"> 
+  <br> 
+  <div>
+        {{ mashu | allCapital}}
+  </div>
+      <hr>
+      4) first char lower case:
+
+  <input type="text"  (input)="yosi= $event.target.value"> 
+  <br> 
+  
+
+ <div>
+    {{ yosi | unCapital }} 
+
+ </div>
+<br>
+<hr>
+
+5) say hallo:
+
+<input type="text"  (input)="hallo= $event.target.value"> 
+<br> 
+
+
+<div>
+  {{ hallo | sayHallo }} 
+
+</div>
+<br>
+<hr>
+
+6) incresre:
+
+<input type="number"  (input)="incr= $event.target.value*1">  <!-- value reuens as a string so i have to to do *1 -->
+<br> 
+
+
+<div>
+  {{ incr | increse }} 
+
+</div>
+<br>
+<hr>
+
+7) decresre:
+
+<input type="text"  (input)="dec = $event.target.value*1">  <!-- value reuens as a string so i have to to do *1 -->
+<br> 
+
+
+<div>
+  {{ dec | decrese }} 
+
+</div>
+<br>
+<hr>
+
+9)filter
+<div>
+  {{ top| filter: "1"}} 
+
+
+</div>
+<br>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+

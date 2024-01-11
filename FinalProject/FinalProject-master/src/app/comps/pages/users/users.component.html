@@ -1,0 +1,13 @@
+<p>users works!</p>
+
+
+<h1 (click)= "selectAuser(u)"> click</h1>
+
+<h1>select a user </h1>
+<div class="user-list">
+    <ul *ngFor="let u of usersList"
+    (click)="selectAuser(u)">
+    <app-user-item [user]="u"></app-user-item>
+</ul>
+
+</div>
